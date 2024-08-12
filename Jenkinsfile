@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven 3.x'  // Ensure Maven is installed on the Jenkins server, and the tool name matches this entry
-    }
-
     stages {
         stage('Build') {
             steps {
